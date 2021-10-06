@@ -42,7 +42,7 @@ function AddProductPageForm() {
     const url = baseUrl + '/api/product_pages';
     const options = {
       headers: {
-        Authorization: `bearer ${userToken}`
+        Authorization: "bearer " + userToken 
       }
     };
 

@@ -142,7 +142,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
           Need more?
         </Typography>
         <Typography align="center" variant="body2">
-          Upgrade to PRO version and access 20 more screens
+          
         </Typography>
         <Box
           sx={{
@@ -156,7 +156,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
             variant="contained"
             onClick={handleProductPageCreate}
           >
-            See PRO version
+            
           </Button>
         </Box>
       </Box>

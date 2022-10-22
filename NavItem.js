@@ -48,7 +48,7 @@ const NavItem = ({
         to={href}
       >
         {Icon && (
-          <Icon size="20" />
+          <Icon size="25" />
         )}
         <span>
           {title}
@@ -58,10 +58,6 @@ const NavItem = ({
   );
 };
 
-NavItem.propTypes = {
-  href: PropTypes.string,
-  icon: PropTypes.elementType,
-  title: PropTypes.string
-};
+
 
 export default NavItem;

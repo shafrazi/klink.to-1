@@ -28,11 +28,7 @@ const DashboardLayoutContainer = experimentalStyled('div')({
   overflow: 'hidden'
 });
 
-const DashboardLayoutContent = experimentalStyled('div')({
-  flex: '1 1 auto',
-  height: '100%',
-  overflow: 'auto'
-});
+
 
 const DashboardLayout = () => {
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
